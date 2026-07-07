@@ -1,0 +1,143 @@
+title: SOVRINT Master Publication Lineage
+version: v1.0
+author: Katrina Pietroniro
+status: populated_pass_1
+created: 2026-07-06
+publisher: SOVRINT
+system_class: Sovereign Knowledge Infrastructure Operating System
+
+source_basis:
+  uploaded_corpus:
+    - SOVRINT_MASTER_SPEC_BOOK.pdf
+    - SOVRINT_Governance_and_Ethics_White_Paper.pdf
+    - SOVRINT_Methods_and_Assumptions_Appendix.pdf
+    - SOVRINT_Book_Architecture_and_Graphs.pdf
+    - SOVRINT_COMPLETE_SOVEREIGN_OUTLINE_v1.0.pdf
+    - MASTER_SYSTEM_INDEX.txt
+    - ENGINE_SPEC_CARDS.txt
+    - ARCH_SPEC_MASTER_INDEX.txt
+  drive_assets:
+    - SOVRINT Full Lattice Deployment Blueprint
+    - SOVRINT Academy Master Course Registry
+
+release_family:
+  id: SOVRINT.FOUNDATIONS
+  title: SOVRINT Foundations: A Sovereign Knowledge Infrastructure Operating System
+  version: v1.0
+  type: research_corpus
+  parent: null
+  children: [DOI.001, DOI.002, DOI.003, DOI.004, DOI.005, DOI.006, DOI.007, DOI.008, DOI.009, DOI.010]
+  keywords: [systems_architecture, observability, governance, ontology, runtime_systems, knowledge_infrastructure]
+
+records:
+  - publication_id: DOI.001
+    title: SOVRINT Master Specification Book
+    source_files: [SOVRINT_MASTER_SPEC_BOOK.pdf]
+    type: technical_specification
+    domains: [architecture, governance, runtime, observability]
+    canonical_role: [master_reference, technical_baseline]
+    release_status: ready_for_foundations_package
+
+  - publication_id: DOI.002
+    title: SOVRINT Governance and Ethics Framework
+    source_files: [SOVRINT_Governance_and_Ethics_White_Paper.pdf]
+    type: white_paper
+    domains: [governance, ethics, accountability]
+    canonical_role: [governance_authority]
+    release_status: ready_for_foundations_package
+
+  - publication_id: DOI.003
+    title: Methods and Assumptions Appendix
+    source_files: [SOVRINT_Methods_and_Assumptions_Appendix.pdf]
+    type: research_appendix
+    domains: [methodology, assumptions, validation, reproducibility]
+    canonical_role: [methodological_reference]
+    release_status: ready_for_foundations_package
+
+  - publication_id: DOI.004
+    title: Book Architecture and Graph Systems
+    source_files: [SOVRINT_Book_Architecture_and_Graphs.pdf]
+    type: architecture_volume
+    domains: [graph_theory, topology, visual_architecture, knowledge_structures]
+    canonical_role: [graph_reference]
+    release_status: release_candidate
+
+  - publication_id: DOI.005
+    title: Complete Sovereign Outline
+    source_files: [SOVRINT_COMPLETE_SOVEREIGN_OUTLINE_v1.0.pdf]
+    type: program_architecture
+    domains: [strategic_architecture, ontology, roadmap]
+    canonical_role: [ecosystem_map]
+    release_status: release_candidate
+
+  - publication_id: DOI.006
+    title: Runtime State Transition Algebra
+    type: mathematics_specification
+    domains: [runtime_algebra, state_transitions, correction_dynamics, observability]
+    core_equations: [EQ.001-EQ.088]
+    canonical_role: [mathematical_foundation]
+    release_status: requires_equation_registry_completion
+
+  - publication_id: DOI.007
+    title: Federated Observatory Intelligence
+    type: runtime_architecture
+    domains: [observability, forecasting, federation, digital_twins]
+    equations: [EQ.053-EQ.076]
+    canonical_role: [observatory_reference]
+    release_status: requires_runtime_demonstration
+
+  - publication_id: DOI.008
+    title: Sovereign Intelligence Architecture
+    type: advanced_architecture
+    domains: [collective_cognition, strategic_foresight, meta_governance, autonomous_planning]
+    equations: [EQ.077-EQ.088]
+    canonical_role: [intelligence_reference]
+    release_status: requires_registry_crosswalk
+
+  - publication_id: DOI.009
+    title: Visual Bible Volume I
+    type: visual_systems
+    domains: [glyph_systems, topology, cartography, observability]
+    canonical_role: [visual_language_reference]
+    release_status: requires_visual_registry
+
+  - publication_id: DOI.010
+    title: Canonical Registry and Ontology System
+    type: ontology_specification
+    domains: [ontology, registries, symbols, equations, publication_lineage]
+    includes: [MASTER_SYSTEM_INDEX, ENGINE_SPEC_CARDS, ARCH_SPEC_MASTER_INDEX]
+    canonical_role: [ontology_authority]
+    release_status: active_population
+
+release_sequence:
+  - id: RELEASE.01
+    title: SOVRINT Foundations v1.0
+    contents: [Executive_Abstract, Master_Specification_Book, Governance_and_Ethics, Methods_Appendix, Authorship_Declaration, Citation_File, Manifest, Checksums]
+    success_condition: citable_foundation_package
+
+  - id: RELEASE.02
+    title: Visual Bible Series
+    contents: [Visual_Design_System, Plate_Engineering_Layer, Color_Ontology, Symbol_Registry, Typography_Doctrine]
+    success_condition: visual_language_reference_package
+
+  - id: RELEASE.03
+    title: Runtime and Observability Framework
+    contents: [Runtime_State_Architecture, Telemetry_Semantics, Governance_Constraints, Registry_Frameworks]
+    success_condition: demonstrable_runtime_reference
+
+metadata:
+  creator: Katrina Pietroniro
+  language: en
+  license: CC_BY_4_0
+  funding: Independent Research
+  source_of_truth: AXIOM
+  runtime_node: LATTICE
+
+package_requirements:
+  - README.md
+  - ABSTRACT.pdf
+  - AUTHORSHIP_DECLARATION.md
+  - VERSION_HISTORY.md
+  - CHECKSUMS.sha256
+  - CITATION.cff
+  - MANIFEST.txt
