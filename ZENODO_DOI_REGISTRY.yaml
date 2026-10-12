@@ -1,0 +1,38 @@
+title: SOVRINT Zenodo DOI Registry
+version: 1.0
+maintainer: Katrina Pietroniro
+updated: 2026-10-12
+policy: >
+  Only identifiers explicitly found in first-party repository records or
+  independently confirmed Zenodo records are listed. An owner-recorded DOI
+  without a retrievable Zenodo source is marked unverified.
+
+records:
+  - record_id: ZENODO-20278720
+    doi: 10.5281/zenodo.20278720
+    doi_url: https://doi.org/10.5281/zenodo.20278720
+    title: "SOVRINT™ Research Validation Layer: Runtime Integrity, Correction Benchmarks, and Synthetic Telemetry Evidence Package"
+    creator: Katrina Pietroniro
+    source_repository: https://github.com/katrinapietro05-design/sovrint-research-validation-layer
+    source_files:
+      - https://github.com/SOVRINT-OG/sovrint-core/blob/main/TRANSFER_PACKAGES/sovrint-canonical-registries/lineage/publications.yaml
+      - https://github.com/katrinapietro05-design/sovrint-research-validation-layer/blob/main/README.md
+    status: owner-recorded; Zenodo landing page not independently verified in this audit
+    citation_required: true
+
+staged_releases:
+  - title: "SOVRINT™ Canonical Registry Spine™ v1.0"
+    source: "https://github.com/katrinapietro05-design/sovrint-public-export/tree/main/publications/canonical-registry-spine-v1.0"
+    status: staged; DOI explicitly marked to be reserved before publication
+  - title: "SOVRINT™ Foundations of Coherence™ v1.0"
+    source: "https://github.com/katrinapietro05-design/sovrint-public-export/tree/main/publications/foundations-of-coherence-v1.0"
+    status: staged; DOI explicitly marked to be reserved before publication
+  - title: "SOVRINT™ Master Resonance Architecture™ Archive v1.0"
+    source: "https://app.notion.com/p/3ed685812adc8153991dd7d82b9d563b"
+    status: prepared for Zenodo; no deposit or DOI claimed
+
+unverified_candidates:
+  - record_number: 20278911
+    title: "SOVRINT™ Runtime Visual Atlas"
+    status: secondary-source claim only; no Zenodo landing page or DOI independently confirmed
+    action: do not cite as a verified DOI until a primary Zenodo record is available
