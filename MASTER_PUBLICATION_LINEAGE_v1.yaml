@@ -22,7 +22,7 @@ source_basis:
 
 release_family:
   id: SOVRINT.FOUNDATIONS
-  title: SOVRINT Foundations: A Sovereign Knowledge Infrastructure Operating System
+  title: "SOVRINT Foundations: A Sovereign Knowledge Infrastructure Operating System"
   version: v1.0
   type: research_corpus
   parent: null
