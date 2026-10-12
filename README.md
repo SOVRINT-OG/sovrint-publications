@@ -16,3 +16,8 @@ The Research Validation Layer DOI is present in first-party GitHub records but w
 ## Citation
 
 Cite the specific work, author, version/date, repository, and assigned DOI where available. Research citation is required; citation does not grant reuse rights. See SOVRINT_LICENSE.md.
+
+
+## Research status and evidence
+
+See [RESEARCH_STATUS.yaml](./RESEARCH_STATUS.yaml) for the version, release, DOI, evidence class, validation state, source-register guidance, and rights metadata. Update that record when those facts change. Cite sources beside claims that depend on them; citation alone does not grant reuse permission.
