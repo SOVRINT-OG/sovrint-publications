@@ -128,7 +128,9 @@ release_sequence:
 metadata:
   creator: Katrina Pietroniro
   language: en
-  license: CC_BY_4_0
+  license: "No licence granted; all rights reserved"
+  rights: "Copyright © 2024–present Katrina Pietroniro. All rights reserved. No general reuse licence is granted."
+  research_citation_required: true
   funding: Independent Research
   source_of_truth: AXIOM
   runtime_node: LATTICE
