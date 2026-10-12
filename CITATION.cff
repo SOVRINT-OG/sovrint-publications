@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite the specific SOVRINT publication or archive you use; include the version and DOI when assigned."
+title: "SOVRINT Publications"
+authors:
+  - family-names: Pietroniro
+    given-names: Katrina
+version: "1.0"
+date-released: 2026-10-12
+repository-code: "https://github.com/SOVRINT-OG/sovrint-publications"
